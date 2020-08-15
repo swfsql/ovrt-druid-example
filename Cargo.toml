@@ -1,0 +1,29 @@
+[package]
+name = "ovrt-druid-example"
+version = "0.0.1"
+authors = ["Thiago Machado <swfsql@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.6"
+once_cell = "1.4.0"
+
+[dependencies.wasm-bindgen]
+version = "0.2.65"
+features = ["serde-serialize"]
+
+[dependencies.druid]
+version = "0.6.0"
+features = ["im"]
+
+[dependencies.ovrt-sys]
+version = "0.0.1"
+rev = "6341459"
+git = "https://github.com/swfsql/ovrt-sys"
+# when local, I use the path instead of the git link
+# path = "../ovrt-sys/" 
