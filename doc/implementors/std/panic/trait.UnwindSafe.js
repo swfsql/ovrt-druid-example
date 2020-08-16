@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["ovrt_druid_example"] = [{"text":"impl UnwindSafe for AppData","synthetic":true,"types":[]},{"text":"impl UnwindSafe for Overlay","synthetic":true,"types":[]},{"text":"impl UnwindSafe for overlays","synthetic":true,"types":[]},{"text":"impl UnwindSafe for Delegate","synthetic":true,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

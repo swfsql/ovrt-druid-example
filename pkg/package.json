@@ -1,0 +1,15 @@
+{
+  "name": "ovrt-druid-example",
+  "collaborators": [
+    "Thiago Machado <swfsql@gmail.com>"
+  ],
+  "version": "0.0.1",
+  "files": [
+    "ovrt_druid_example_bg.wasm",
+    "ovrt_druid_example.js",
+    "ovrt_druid_example.d.ts"
+  ],
+  "module": "ovrt_druid_example.js",
+  "types": "ovrt_druid_example.d.ts",
+  "sideEffects": false
+}

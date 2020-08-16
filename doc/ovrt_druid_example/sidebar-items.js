@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["__wasm_bindgen_generated_wasm_main",""],["run",""],["wasm_main",""]],"mod":[["app",""],["cmd","Defines what effects are made by events/callbacks."],["sink","This organizes how ovrt-sys passes events/callbacks into this druid app instance. But in short, this is boilerplate."]]});

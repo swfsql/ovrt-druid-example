@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["ovrt_druid_example"] = [{"text":"impl Unpin for AppData","synthetic":true,"types":[]},{"text":"impl Unpin for Overlay","synthetic":true,"types":[]},{"text":"impl Unpin for overlays","synthetic":true,"types":[]},{"text":"impl Unpin for Delegate","synthetic":true,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
